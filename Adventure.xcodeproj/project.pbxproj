@@ -15,6 +15,9 @@
 		7991E2C12BB55BC500F4FD2C /* LayoutStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991E2C02BB55BC500F4FD2C /* LayoutStack.swift */; };
 		7991E2C32BB56D1400F4FD2C /* ScrollLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991E2C22BB56D1400F4FD2C /* ScrollLayout.swift */; };
 		7991E2C52BB57AD100F4FD2C /* ButtonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991E2C42BB57AD100F4FD2C /* ButtonLayout.swift */; };
+		7991E2C72BB5860F00F4FD2C /* StateLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991E2C62BB5860F00F4FD2C /* StateLayout.swift */; };
+		7991E2C92BB58A4200F4FD2C /* ShapeLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991E2C82BB58A4200F4FD2C /* ShapeLayout.swift */; };
+		7991E2F62BB5BD9500F4FD2C /* AnimationLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991E2F52BB5BD9500F4FD2C /* AnimationLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		7991E2C02BB55BC500F4FD2C /* LayoutStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutStack.swift; sourceTree = "<group>"; };
 		7991E2C22BB56D1400F4FD2C /* ScrollLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLayout.swift; sourceTree = "<group>"; };
 		7991E2C42BB57AD100F4FD2C /* ButtonLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLayout.swift; sourceTree = "<group>"; };
+		7991E2C62BB5860F00F4FD2C /* StateLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateLayout.swift; sourceTree = "<group>"; };
+		7991E2C82BB58A4200F4FD2C /* ShapeLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeLayout.swift; sourceTree = "<group>"; };
+		7991E2F52BB5BD9500F4FD2C /* AnimationLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,9 @@
 				7991E2C02BB55BC500F4FD2C /* LayoutStack.swift */,
 				7991E2C22BB56D1400F4FD2C /* ScrollLayout.swift */,
 				7991E2C42BB57AD100F4FD2C /* ButtonLayout.swift */,
+				7991E2C62BB5860F00F4FD2C /* StateLayout.swift */,
+				7991E2C82BB58A4200F4FD2C /* ShapeLayout.swift */,
+				7991E2F52BB5BD9500F4FD2C /* AnimationLayout.swift */,
 			);
 			path = Adventure;
 			sourceTree = "<group>";
@@ -160,10 +169,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7991E2C92BB58A4200F4FD2C /* ShapeLayout.swift in Sources */,
 				7991E2C12BB55BC500F4FD2C /* LayoutStack.swift in Sources */,
 				7991E2B12BB515FE00F4FD2C /* ContentView.swift in Sources */,
 				7991E2C52BB57AD100F4FD2C /* ButtonLayout.swift in Sources */,
+				7991E2C72BB5860F00F4FD2C /* StateLayout.swift in Sources */,
 				7991E2C32BB56D1400F4FD2C /* ScrollLayout.swift in Sources */,
+				7991E2F62BB5BD9500F4FD2C /* AnimationLayout.swift in Sources */,
 				7991E2AF2BB515FE00F4FD2C /* AdventureApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
