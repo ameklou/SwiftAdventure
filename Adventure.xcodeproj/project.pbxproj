@@ -14,6 +14,7 @@
 		7991E2BE2BB51CAD00F4FD2C /* Kanit-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7991E2BD2BB51CAD00F4FD2C /* Kanit-Regular.ttf */; };
 		7991E2C12BB55BC500F4FD2C /* LayoutStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991E2C02BB55BC500F4FD2C /* LayoutStack.swift */; };
 		7991E2C32BB56D1400F4FD2C /* ScrollLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991E2C22BB56D1400F4FD2C /* ScrollLayout.swift */; };
+		7991E2C52BB57AD100F4FD2C /* ButtonLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991E2C42BB57AD100F4FD2C /* ButtonLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		7991E2BF2BB51D0600F4FD2C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		7991E2C02BB55BC500F4FD2C /* LayoutStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutStack.swift; sourceTree = "<group>"; };
 		7991E2C22BB56D1400F4FD2C /* ScrollLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollLayout.swift; sourceTree = "<group>"; };
+		7991E2C42BB57AD100F4FD2C /* ButtonLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				7991E2B42BB515FF00F4FD2C /* Preview Content */,
 				7991E2C02BB55BC500F4FD2C /* LayoutStack.swift */,
 				7991E2C22BB56D1400F4FD2C /* ScrollLayout.swift */,
+				7991E2C42BB57AD100F4FD2C /* ButtonLayout.swift */,
 			);
 			path = Adventure;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			files = (
 				7991E2C12BB55BC500F4FD2C /* LayoutStack.swift in Sources */,
 				7991E2B12BB515FE00F4FD2C /* ContentView.swift in Sources */,
+				7991E2C52BB57AD100F4FD2C /* ButtonLayout.swift in Sources */,
 				7991E2C32BB56D1400F4FD2C /* ScrollLayout.swift in Sources */,
 				7991E2AF2BB515FE00F4FD2C /* AdventureApp.swift in Sources */,
 			);
