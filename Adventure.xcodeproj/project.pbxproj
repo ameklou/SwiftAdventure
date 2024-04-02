@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		793C97A22BBC16E7007B753E /* ViewBuilderLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793C97A12BBC16E7007B753E /* ViewBuilderLayout.swift */; };
+		793C97A42BBC1B23007B753E /* CustomModifierLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 793C97A32BBC1B23007B753E /* CustomModifierLayout.swift */; };
 		7991E2AF2BB515FE00F4FD2C /* AdventureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991E2AE2BB515FE00F4FD2C /* AdventureApp.swift */; };
 		7991E2B12BB515FE00F4FD2C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7991E2B02BB515FE00F4FD2C /* ContentView.swift */; };
 		7991E2B32BB515FF00F4FD2C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7991E2B22BB515FF00F4FD2C /* Assets.xcassets */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		793C97A12BBC16E7007B753E /* ViewBuilderLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewBuilderLayout.swift; sourceTree = "<group>"; };
+		793C97A32BBC1B23007B753E /* CustomModifierLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifierLayout.swift; sourceTree = "<group>"; };
 		7991E2AB2BB515FE00F4FD2C /* Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7991E2AE2BB515FE00F4FD2C /* AdventureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventureApp.swift; sourceTree = "<group>"; };
 		7991E2B02BB515FE00F4FD2C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 				7991E2F52BB5BD9500F4FD2C /* AnimationLayout.swift */,
 				7991E2F72BB5F3ED00F4FD2C /* FormLayout.swift */,
 				793C97A12BBC16E7007B753E /* ViewBuilderLayout.swift */,
+				793C97A32BBC1B23007B753E /* CustomModifierLayout.swift */,
 			);
 			path = Adventure;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				793C97A42BBC1B23007B753E /* CustomModifierLayout.swift in Sources */,
 				7991E2C92BB58A4200F4FD2C /* ShapeLayout.swift in Sources */,
 				7991E2C12BB55BC500F4FD2C /* LayoutStack.swift in Sources */,
 				793C97A22BBC16E7007B753E /* ViewBuilderLayout.swift in Sources */,
